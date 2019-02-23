@@ -11,6 +11,18 @@ Read requirements.org
 Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
+=================
+Part I
+Changing the background paper to the paper-like backgrounds.
+Making both text and images stay in the middle.
+Adding zoom-in features to all images.
+Modify the color and style of headers.
+
+=================
+Part II
+
+=================
+
 
 License/Copyright
 =================

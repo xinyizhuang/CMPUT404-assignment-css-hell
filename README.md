@@ -14,14 +14,14 @@ git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
 Part I
 ============================
-Changing the background paper to the paper-like backgrounds.
-Making both text and images stay in the middle.
-Adding zoom-in features to all images.
-Modify the color and style of headers.
+Changing the background paper to the paper-like backgrounds.<br>
+Making both text and images stay in the middle.<br>
+Adding zoom-in features to all images.<br>
+Modify the color and style of headers.<br>
 
 Part II
 ============================
-For ugly.html, I only simply typed the words with awful background color, and attach a self image.
+For ugly.html, I only simply typed the words with awful background color, and attach a self image.<br>
 For good.html, I modify the texture aligment, add zoom-in feature to the image. And keeping the backgroud of whole page as clear as poosible.
 
 License/Copyright

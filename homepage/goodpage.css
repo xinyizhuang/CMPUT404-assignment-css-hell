@@ -1,0 +1,130 @@
+/*
+   Copyright 2019 Xinyi Zhuang
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+   
+   Zoom In Effect on Images
+   http://stackoverflow.com/questions/15757036/creating-a-zoom-effect-on-an-image-on-hover-using-css
+*/
+
+html
+{
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+}
+
+body 
+{
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+#top
+{
+  margin-left: 50px;
+  margin-right:50px;
+  margin-top: 25px;
+  margin-bottom:10px;
+  display: block;
+  border-style: dotted;
+  height: 100px;
+  background-color: silver;
+}
+
+#navblock
+{
+  text-align: right;
+  color: white;
+  font-size: 125%;
+}
+
+#header
+{
+  margin-top: 15px;
+  margin-left: 25px;
+  float: left;
+}
+
+#primaryheader
+{
+  font-size: 125%;
+}
+
+.section
+{
+  border-style: dotted;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  background-color: silver;
+}
+
+.sectionhead
+{
+  text-align: center;
+  font-size: 140%;
+  letter-spacing: 1px;
+  text-shadow: 3px 3px #c0c0c0;
+  color: white;
+}
+
+.sectionbody
+{
+  text-align:center;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+ul
+{
+  display: table;
+  text-align: center;
+  margin:0 auto;
+}
+
+li
+{
+  text-align: center;
+}
+
+img{
+        text-shadow: 15px 15px 15px #505050;
+        margin-top: 0px;
+        max-width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid #000;   
+        -webkit-transition: all 1s ease; /* Safari and Chrome*/
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera*/
+    transition: all 1s ease; 
+}
+
+
+/*a zoom in effect for image
+*/
+img:hover{
+        display: block;
+    margin: 0 auto;
+        -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+        
+}

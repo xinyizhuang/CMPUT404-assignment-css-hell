@@ -21,7 +21,8 @@ Modify the color and style of headers.
 
 Part II
 ============================
-
+For ugly.html, I only simply typed the words with awful background color, and attach a self image.
+For good.html, I modify the texture aligment, add zoom-in feature to the image. And keeping the backgroud of whole page as clear as poosible.
 
 License/Copyright
 =================
